@@ -1,5 +1,5 @@
 import '@/app/ui/global.css'
-import { interTight } from './ui/font'
+import { interTight } from './ui/fonts'
 export default function RootLayout({
   children,
 }: {

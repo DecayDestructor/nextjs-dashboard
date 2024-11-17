@@ -1,11 +1,13 @@
+import '@/app/ui/global.css'
+import { interTight } from './ui/font'
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${interTight.className} antialiased`}>{children}</body>
     </html>
-  );
+  )
 }
